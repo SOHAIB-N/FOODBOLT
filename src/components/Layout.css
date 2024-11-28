@@ -1,0 +1,26 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-logo {
+  padding: 0.5rem 1rem;
+}
+
+.header-logo .logo-image {
+  max-width: 100px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+} 
